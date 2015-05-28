@@ -3,7 +3,7 @@
     'use strict';
     ({
         animateScroll : function () {
-            $("#nav").find('.nav-link').on('click', function (event) {
+            $("#nav").find('a').on('click', function (event) {
 
                 var $this = $(this),
                     $htmlBody = $('html, body'),
